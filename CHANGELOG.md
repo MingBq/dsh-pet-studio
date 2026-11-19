@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- 修复：`sleep` 被误写进 `animations.events`，导致整块 `animations` 被 dsh-pet 判为非法而回退默认动作名——自定义宠物因此找不到素材、桌面上变成空白。现在 `sleep` 正确放在 `animations` 顶层。
+
 ## 0.2.0
 
 - 新增「AI 生成 Q 版」：接任意 OpenAI 兼容的 `POST {baseUrl}/images/edits`（`imageBaseUrl` / `imageModel` / `imageApiKey`，或环境变量 `PET_STUDIO_IMAGE_BASE_URL` / `PET_STUDIO_IMAGE_MODEL` / `PET_STUDIO_IMAGE_KEY`）；未配置时按钮不出现。

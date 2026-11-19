@@ -1,6 +1,6 @@
 {
   "name": "dsh-pet-studio",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "Turn a photo into a Q-style DSH pet: cut out, build a dsh-pet pack (avatar, memes, persona), and keep the built-in pets working. · 把照片做成 Q 版桌宠，内置宠物照常可用。",
   "license": "MIT",

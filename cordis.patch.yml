@@ -1,0 +1,6 @@
+# 图像模型（可选）：不配置时「AI 生成 Q 版」按钮不出现，只走「导入现成图」。
+# 任何 OpenAI 兼容的 /images/edits 服务都行：填 baseUrl 与 model 即可。
+- insert:
+    - id: pet-studio
+      name: dsh-pet-studio
+      config: {}

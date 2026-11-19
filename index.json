@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "title": {
+    "en": "ming16 plugins",
+    "zh": "ming16 插件索引"
+  },
+  "description": {
+    "en": "Personal DSH plugin index.",
+    "zh": "个人 DSH 插件索引。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-pet-studio",
+      "title": {
+        "en": "Pet studio",
+        "zh": "宠物工坊"
+      },
+      "description": {
+        "en": "Turn a photo into a Q-style DSH pet: local cutout, pack, and a full seven-clip animation set for dsh-pet.",
+        "zh": "把一张照片做成 Q 版桌宠：本地抠图、生成宠物包，并用程序化动作补齐 dsh-pet 的全套动作。"
+      },
+      "author": "ming16",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBldCBzdHVkaW8iPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjZjNmMWVjIi8+CiAgPGcgZmlsbD0iIzRjNWE2YiI+CiAgICA8ZWxsaXBzZSBjeD0iMjIiIGN5PSIyNCIgcng9IjYiIHJ5PSI4IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTYgMjIgMjQpIi8+CiAgICA8ZWxsaXBzZSBjeD0iNDIiIGN5PSIyNCIgcng9IjYiIHJ5PSI4IiB0cmFuc2Zvcm09InJvdGF0ZSgxNiA0MiAyNCkiLz4KICAgIDxlbGxpcHNlIGN4PSIxNCIgY3k9IjM3IiByeD0iNSIgcnk9IjYuNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTI4IDE0IDM3KSIvPgogICAgPGVsbGlwc2UgY3g9IjUwIiBjeT0iMzciIHJ4PSI1IiByeT0iNi41IiB0cmFuc2Zvcm09InJvdGF0ZSgyOCA1MCAzNykiLz4KICAgIDxwYXRoIGQ9Ik0zMiAzM2M3IDAgMTQgNS42IDE0IDEyIDAgNS4yLTQuNiA4LTkuNiA4LTIgMC0zLjItLjctNC40LS43cy0yLjQuNy00LjQuN0MyMi42IDUzIDE4IDUwLjIgMTggNDVjMC02LjQgNy0xMiAxNC0xMnoiLz4KICA8L2c+Cjwvc3ZnPgo=",
+      "homepage": "https://www.npmjs.com/package/dsh-pet-studio",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794848639,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}

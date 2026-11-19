@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+
+- 安装兼容性：`sharp` 与 `@ffmpeg-installer/ffmpeg` 改为 **optionalDependencies**，原生依赖装不上时安装不再整体失败（宠物包照常创建，只有「生成动作」会提示不可用）。
+- `engines.node` 放宽到 `>=20.18.0`，适配 Desktop 端内置的 Node。
+
 ## 0.2.1
 
 - 修复：`sleep` 被误写进 `animations.events`，导致整块 `animations` 被 dsh-pet 判为非法而回退默认动作名——自定义宠物因此找不到素材、桌面上变成空白。现在 `sleep` 正确放在 `animations` 顶层。
